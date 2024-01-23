@@ -1,12 +1,11 @@
 
+let score = 0;
 let sessionscore = 0;
 let level = 1;
 
 if(localStorage.score) {
     score = parseInt(localStorage.score);
-} else {
-    let score = 0;
-}
+} 
 
 document.querySelector(".score-total-data").innerHTML = score;
 document.querySelector(".score-session-data").innerHTML = sessionscore;
