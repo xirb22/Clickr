@@ -42,6 +42,16 @@ main {
     border-block: 2px solid gainsboro;
 }
 
+
+
+@media (max-width: 600) {
+    .main {
+        
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
 .container-button-clickr {
 
     /* border: 2px solid green; */
